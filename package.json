@@ -1,16 +1,21 @@
 {
-  "name": "graphql-experiment",
+  "name": "graphql-experiments",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Project while learning GraphQL",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "matthis-d",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
     "graphql": "^0.10.1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/matthis-d/graphql-experiments"
   }
 }
